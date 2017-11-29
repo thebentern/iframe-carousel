@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  .fill-content
+    #iframe-carousel.carousel.slide(data-ride='carousel' data-interval=slidesConfig.transition_time)
+      .carousel-inner
+        each slide, index in slidesConfig.slides
+          .carousel-item(class={active: index === 0})
+            iframe(src=slide.url)
+            if slide.title
+              .carousel-caption
+                h3 #{slide.title}
+      a.carousel-control-prev(href='#iframe-carousel' role='button' data-slide='prev')
+        span.carousel-control-prev-icon(aria-hidden='true')
+        span.sr-only Previous
+      a.carousel-control-next(href='#iframe-carousel' role='button' data-slide='next')
+        span.carousel-control-next-icon(aria-hidden='true')
+        span.sr-only Next
+

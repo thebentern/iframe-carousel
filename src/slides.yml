@@ -1,0 +1,8 @@
+# Transition time is expressed in milliseconds
+transition_time: 10000
+# Slides have a url and optional title
+slides:
+  - title: htop
+    url: http://127.0.0.1:8080/
+  - title: nettop
+    url: http://127.0.0.1:8081/
