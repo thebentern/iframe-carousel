@@ -1,6 +1,6 @@
 # iframe-carousel
 
-[![Build Status](https://travis-ci.org/thebentern/wemos-mini-templogger.svg?branch=master)](https://travis-ci.org/thebentern/wemos-mini-templogger)
+[![Build Status](https://travis-ci.org/thebentern/iframe-carousel.svg?branch=master)](https://travis-ci.org/thebentern/iframe-carousel)
 
 An express app for displaying external pages in iframes on a carousel for a kiosk or dashboard 
 
