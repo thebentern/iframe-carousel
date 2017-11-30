@@ -6,6 +6,10 @@ An express app for displaying external pages in iframes on a carousel for a kios
 
 ![Carousel example](carousel.gif)
 
+## Goal
+
+I wanted a way to carousel through [Gotty](https://github.com/yudai/gotty) terminal sessions on a tablet to display real-time metrics for some of my home server devices and have a easy way to configure and host it.
+
 ## Requirements
 
 For development:
