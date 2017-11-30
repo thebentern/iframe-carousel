@@ -6,7 +6,7 @@ An express app for displaying external pages in iframes on a carousel for a kios
 
 ![Carousel example](carousel.gif)
 
-## Goal
+## What's the Goal?
 
 I wanted a way to carousel through [Gotty](https://github.com/yudai/gotty) terminal sessions on a tablet to display real-time metrics for some of my home server devices and have a easy way to configure and host it.
 
@@ -49,7 +49,7 @@ slides:
 
 ## Building and running in Docker
 
-Optionally, you can run a containerized version of the application. Follow the steps above.
+Optionally, you can run a small containerized version of the application. Follow the steps above.
 
 * Run `docker build -t iframe-carousel .` to build the docker image
 
