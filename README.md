@@ -13,8 +13,8 @@ For development:
 * [NodeJs / npm](https://nodejs.org/en/)
 
 Optional 
-* For better npm package management [Yarn](https://yarnpkg.com/en/)
-* For running inside a container [Docker](https://www.docker.com/get-docker)
+* [Yarn](https://yarnpkg.com/en/)
+* [Docker](https://www.docker.com/get-docker)
 
 ## Basic installation and usage
 
@@ -22,7 +22,7 @@ Optional
 
 * Open a terminal in the `src/` directory
 
-* Run `yarn install` to install dependencies
+* Run `yarn install` to install dependencies or `npm install` if you prefer.
 
 * Edit the `slides.yml` configuration:
 
