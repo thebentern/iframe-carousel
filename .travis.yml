@@ -9,4 +9,4 @@ install:
   - yarn install
 
 script:
-  - npm start
+  - npm run test
