@@ -17,7 +17,7 @@
     "js-yaml": "^3.10.0",
     "morgan": "~1.9.0",
     "popper.js": "^1.12.9",
-    "pug": "2.0.0-beta11",
+    "pug": "3.0.1",
     "serve-favicon": "~2.4.5"
   },
   "main": "app.js",
